@@ -1,9 +1,19 @@
 ---
-layout: post
-title:  "solving git merge conflict"
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+title:  "[Solved] git merge conflict"
 date:   2018-10-31 12:59:49 -0700
 ---
-
 
 {% highlight ruby %}
  (master|MERGING)
