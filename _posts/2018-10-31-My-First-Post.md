@@ -20,7 +20,7 @@ When I follow the step-by-step tutorial to setup my local jekyll, I see the foll
 
 "Could not find gem 'tzinfo-data x64-mingw32' in any of the gem sources listed in your Gemfile. (Bundler::GemNotFound)" 
 
-{% highlight ruby %}
+```bash
 $ bundle exec jekyll serve
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/resolver.rb:287:in `block in verify_gemfile_dependencies_are_found!': Could not find gem 'tzinfo-data x64-mingw32' in any of the gem sources listed in your Gemfile. (Bundler::GemNotFound)
         from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/resolver.rb:255:in `each'
@@ -37,18 +37,17 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/resolver.rb:28
         from C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler/setup.rb:20:in `<top (required)>'
         from C:/Ruby25-x64/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
         from C:/Ruby25-x64/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
-
-{% endhighlight %}
+```
 
 #### 1. Check Gemfile and ensure tzinfo-data gem is included ####
 
-{% highlight ruby %}
+```bash
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-{% endhighlight %}
+```
 
 #### 2. Rerun bundle ####
       
-{% highlight ruby %}
+```bash
 $ bundle
 Fetching gem metadata from https://rubygems.org/..............
 Fetching gem metadata from https://rubygems.org/..
@@ -144,11 +143,11 @@ Fetching wdm 0.1.1
 Installing wdm 0.1.1 with native extensions
 Bundle complete! 5 Gemfile dependencies, 87 gems now installed.
 Use `bundle info [gemname]` to see where a bundled gem is installed.
-{% endhighlight %}
+```
 
 #### 3. It seems working and problem sloved ####
 
-{% highlight ruby %}
+```bash
 $ bundle exec jekyll serve
 
 Configuration file: C:/Users/xxxxx/jekyll-FridayMidnight-repo/jekyll-blog-FriMid-repo/_config.yml
@@ -160,7 +159,7 @@ Configuration file: C:/Users/xxxxx/jekyll-FridayMidnight-repo/jekyll-blog-FriMid
  Auto-regeneration: enabled for 'C:/Users/xxxxx/jekyll-FridayMidnight-repo/jekyll-blog-FriMid-repo'
     Server address: http://127.0.0.1:4000/
   Server running... press ctrl-c to stop.
-{% endhighlight %}
+```
 
 See Also: 
 
