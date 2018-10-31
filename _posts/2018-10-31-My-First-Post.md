@@ -12,7 +12,6 @@ defaults:
       share: true
       related: true
 title:  "[Solved] Could not find gem 'tzinfo-data x64-mingw32'"
-date:   2018-10-28 12:59:49 -0700
 ---
 
 ## Error Symptom  ##
