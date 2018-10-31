@@ -11,13 +11,14 @@ defaults:
       comments: true
       share: true
       related: true
-title:  "Could not find gem 'tzinfo-data x64-mingw32'"
+title:  "[Solved] Could not find gem 'tzinfo-data x64-mingw32'"
 date:   2018-10-28 12:59:49 -0700
 ---
 
 ## Error Symptom  ##
+When I follow the step-by-step tutorial to setup my local jekyll, I see the following error at step4 (<a href="https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#step-4-build-your-local-jekyll-site/">setting-up-your-github-pages-site-locally-with-jekyll</a>).
 
-"Could not find gem 'tzinfo-data x64-mingw32' in any of the gem sources listed in your Gemfile. (Bundler::GemNotFound)" error is seen at step4 (<a href="https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#step-4-build-your-local-jekyll-site/">setting-up-your-github-pages-site-locally-with-jekyll</a>) when building local jekyll site.
+"Could not find gem 'tzinfo-data x64-mingw32' in any of the gem sources listed in your Gemfile. (Bundler::GemNotFound)" 
 
 {% highlight ruby %}
 $ bundle exec jekyll serve
