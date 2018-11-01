@@ -9,7 +9,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
 title:  "[Solved] git merge conflict"
 ---
