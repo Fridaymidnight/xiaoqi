@@ -16,8 +16,9 @@ title:  "Note for Android Studio"
 
 ## Creating your new project  ##
 
-- Application Name: Capalized + Space
+- Application Name: Capitalize first letter in each word + Space
 - Package Name: all lower case
+- Activity Name: Capitalize MainActivity (standard name)
 
 "Could not find gem 'tzinfo-data x64-mingw32' in any of the gem sources listed in your Gemfile. (Bundler::GemNotFound)" 
 
