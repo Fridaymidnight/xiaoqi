@@ -20,6 +20,26 @@ title:  "Note for Android Studio"
 - Package Name: all lower case
 - Activity Name: Capitalize MainActivity (standard name)
 
+## MainActivity ##
+Focus on "Android" (what Android cares about)
+1. Manifests (can specify which activity is the starter activity
+2. java -> put java code here
+3. res (layout/values)
+
+i.e.
+- MyFirstApp/app/src/main/res/layout/activity_main.xml
+- MyFirstApp/app/java/com/kaopu/myfirstapp/MainActivity.java
+
+## auto import ##
+
+Files -> Settings -> Editor -> General -> auto import 
+
+check "Optimize imports on the fly" and "Add unambiguous imports on the fly"
+
+## Adding a breaking point ##
+
+Run -> debug... 
+Run -> Step Over/Step Into/Step Out
 "Could not find gem 'tzinfo-data x64-mingw32' in any of the gem sources listed in your Gemfile. (Bundler::GemNotFound)" 
 
 ```bash
