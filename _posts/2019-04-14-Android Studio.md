@@ -45,6 +45,7 @@ Run -> Step Over/Step Into/Step Out
 ## java name ##
 类型名  写全 + 首字母大写
 变量名  缩写 + 首字母大写 -> 和resource ID保持一致
+resource ID名 首字母小写，其他单词首字母大写
 
 ## setOnClickListner() ##
 Button AddBtn = (Button) findViewById(R.id.AddBtn);
@@ -53,10 +54,10 @@ AddBtn.setOnClickListener(new View.onClickListener(){
   @override
   public void onclick(View v){
   
-  EditText FirstNumPlainText = (EditText) findIdByView(R.id.FirstNumPlainText);
-  EditText SecNumPlainText = (EditText) findIdByView(R.id.SecNumEditText);
+  EditText FirstNumPlainText = (EditText) findIdByView(R.id.firstNumPlainText);
+  EditText SecNumPlainText = (EditText) findIdByView(R.id.secNumEditText);
   
-  TextView ResultTextView = (TextView) findIdByView(R.id.ResultTextView);
+  TextView ResultTextView = (TextView) findIdByView(R.id.resultTextView);
   
   int num1 = Integer.parseInt(FirstNumPlainText.getText().toString());
   int num2 = Integer.parseInt(SecNumEditText.getText().toString());
@@ -66,6 +67,12 @@ AddBtn.setOnClickListener(new View.onClickListener(){
   })
 };
 
+## Core Elements ##
+
+Activity - A rectangular area that displays something
+Intent - An action being requested that the device should try to perform
+IntentService - Services that can handle Intent requests and process the work to be done
+BroadcaseReceivers - Receives an Intent from a sendBoardcast method often indicating that some work has been completed.
 
 
        
