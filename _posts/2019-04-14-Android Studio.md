@@ -39,12 +39,15 @@ check "Optimize imports on the fly" and "Add unambiguous imports on the fly"
 ## Adding a breaking point ##
 
 Run -> debug... 
+
 Run -> Step Over/Step Into/Step Out
-"Could not find gem 'tzinfo-data x64-mingw32' in any of the gem sources listed in your Gemfile. (Bundler::GemNotFound)" 
+
 
 ## java name ##
 类型名  写全 + 首字母大写
+
 变量名  缩写 + 首字母大写 -> 和resource ID保持一致
+
 resource ID名 首字母小写，其他单词首字母大写
 
 ## setOnClickListner() ##
