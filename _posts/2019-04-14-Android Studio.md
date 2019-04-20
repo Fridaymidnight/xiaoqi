@@ -14,6 +14,27 @@ defaults:
 title:  "Note for Android Studio 1"
 ---
 
+## Core Elements and APIs ##
+
+Activity - A rectangular area that displays something
+
+BroadcaseReceivers - Receives an Intent from a sendBoardcast method often indicating that some work has been completed.
+onCreate() - the first method that will fire when an Activity is loaded
+findViewById() - a way to locate resources in your Activity
+
+Intent - An action being requested that the device should try to perform
+IntentService - Services that can handle Intent requests and process the work to be done
+getIntent() - gets the Intent that was passed to an Activity
+
+putExtra() - passes data as a key-value pair
+getExtra().getString() - retrieved the String that was passed to the Intent object
+
+StartActivity() - used to launch another Activity
+
+getApplicationContext()
+Intent.ACTION_VIEW
+resolveActivity(getPackageManager())
+
 ## Creating your new project  ##
 
 - Application Name: Capitalize first letter in each word + Space
@@ -46,9 +67,9 @@ Run -> Step Over/Step Into/Step Out
 ## java name ##
 类型名  写全 + 首字母大写
 
-变量名  缩写 + 首字母大写 -> 和resource ID保持一致
+其他：缩写 + 首字母小写 i.e. 变量名，resource ID
 
-resource ID名 首字母小写，其他单词首字母大写
+
 
 ## setOnClickListner() ##
 Button AddBtn = (Button) findViewById(R.id.AddBtn);
@@ -70,12 +91,9 @@ AddBtn.setOnClickListener(new View.onClickListener(){
   })
 };
 
-## Core Elements ##
 
-Activity - A rectangular area that displays something
-Intent - An action being requested that the device should try to perform
-IntentService - Services that can handle Intent requests and process the work to be done
-BroadcaseReceivers - Receives an Intent from a sendBoardcast method often indicating that some work has been completed.
+
+
 
 
        
