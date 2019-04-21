@@ -35,13 +35,40 @@ getApplicationContext()
 Intent.ACTION_VIEW
 resolveActivity(getPackageManager())
 
-## Creating your new project  ##
+## match_parent  ##
+
+ListView in <activity_main.xml>
+android:layout_width="match_parent"
+
+## strings.xml ##
+
+<string-array name="items">
+  <item>peach</item>
+  <item>tomato</item>
+  <item>squash</item>
+</string-array>
+
+<string-array name="prices">
+  <item>$0.99</item>
+  <item>$1.99</item>
+  <item>$1.49</item>  
+</string-array>
+
+<string-array name="descriptions">
+  <item>Fresh peaches from mexico</item>
+  <item>Fresh salad</item> 
+  <item>California product</item>  
+</string-array>
+  
+- Package Name: all lower case
+- Activity Name: Capitalize MainActivity (standard name)
+## Create a custom layout  ##
 
 - Application Name: Capitalize first letter in each word + Space
 - Package Name: all lower case
 - Activity Name: Capitalize MainActivity (standard name)
 
-## MainActivity ##
+## incorporate images with ImageView ##
 Focus on "Android" (what Android cares about)
 1. Manifests (can specify which activity is the starter activity
 2. java -> put java code here
